@@ -1,0 +1,6 @@
+curl https://cli.nexus.xyz/ | sh
+nexus-network start --node-id <36180897>
+nexus-network register-user --wallet-address <0x44412078664F555e77697B310E99Ec37869c4D1D>
+nexus-network register-node
+nexus-network start
+nexus-network logout
